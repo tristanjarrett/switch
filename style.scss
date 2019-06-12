@@ -6,8 +6,8 @@
   }
 }
 
-$color-primary: #00baff;
-$color-secondary: orangered;
+$color-primary: orangered;
+$color-secondary: #00baff;
 
 .button {
   padding: .5rem 1rem;
@@ -17,7 +17,6 @@ $color-secondary: orangered;
   font-weight: bold;
   border: solid 2px $color-primary;
   color: $color-primary;
-  transition: .15s;
   &:hover {
     border-color: $color-primary;
     background: $color-primary;
@@ -50,12 +49,13 @@ $color-secondary: orangered;
   .brand {
     font-size: 1.5rem;
     color: #333;
+    text-decoration: none;
   }
 }
 
 .jumbotron {
   background-color: $color-primary;
-  height: 300px;
+  height: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -63,7 +63,7 @@ $color-secondary: orangered;
   h1 {
     margin: 0;
     font-size: 4rem;
-    color: #ffffff;
+    color: switch($color-primary);
   }
 }
 
@@ -80,13 +80,6 @@ $color-secondary: orangered;
   background-color: #ffffff;
   height: 500px;
   padding-top: 50px;
-}
-
-.footer {
-  padding: 1rem 0;
-  color: switch($color-primary);
-  background-color: $color-primary;
-  text-align: center;
 }
 
 body {

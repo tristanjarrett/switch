@@ -4,13 +4,12 @@
   border-radius: 0.25rem;
   text-decoration: none;
   font-weight: bold;
-  border: solid 2px #00baff;
-  color: #00baff;
-  transition: 0.15s;
+  border: solid 2px orangered;
+  color: orangered;
 }
 .button:hover {
-  border-color: #00baff;
-  background: #00baff;
+  border-color: orangered;
+  background: orangered;
   color: #ffffff;
 }
 
@@ -40,11 +39,12 @@
 .header .brand {
   font-size: 1.5rem;
   color: #333;
+  text-decoration: none;
 }
 
 .jumbotron {
-  background-color: #00baff;
-  height: 300px;
+  background-color: orangered;
+  height: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -69,13 +69,6 @@
   background-color: #ffffff;
   height: 500px;
   padding-top: 50px;
-}
-
-.footer {
-  padding: 1rem 0;
-  color: #ffffff;
-  background-color: #00baff;
-  text-align: center;
 }
 
 body {
