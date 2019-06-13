@@ -1,29 +1,40 @@
+body {
+  background-color: #f7f7f9;
+  color: #333 !important;
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .button {
   padding: 0.5rem 1rem;
   display: inline-block;
   border-radius: 0.25rem;
   text-decoration: none;
   font-weight: bold;
-  border: solid 2px orangered;
-  color: orangered;
+  border: solid 2px #00baff;
+  color: #00baff;
 }
 .button:hover {
-  border-color: orangered;
-  background: orangered;
+  border-color: #00baff;
+  background: #00baff;
   color: #ffffff;
 }
 
-.container-sm, .container-md {
+.container-lg, .container-md, .container-sm {
   margin: 0 auto;
   padding: 0 1rem;
 }
 
-.container-md {
-  max-width: 1200px;
+.container-sm {
+  max-width: 800px;
 }
 
-.container-sm {
+.container-md {
   max-width: 1000px;
+}
+
+.container-lg {
+  max-width: 1200px;
 }
 
 .flex {
@@ -38,22 +49,28 @@
 }
 .header .brand {
   font-size: 1.5rem;
-  color: #333;
+  color: #333 !important;
   text-decoration: none;
 }
 
 .jumbotron {
-  background-color: orangered;
-  height: 200px;
+  background-color: #00baff;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
+  color: #ffffff;
   padding-bottom: 50px;
 }
-.jumbotron h1 {
+.jumbotron .content {
+  padding: 3rem 0;
+}
+.jumbotron .content h1 {
   margin: 0;
   font-size: 4rem;
-  color: #ffffff;
+}
+.jumbotron .content p {
+  font-size: 1.2rem;
 }
 
 .popout {
@@ -63,6 +80,11 @@
   height: 400px;
   margin: -50px auto;
   border: solid 1px #e9e9e9;
+  text-align: center;
+  padding: 50px 1rem;
+}
+.popout h1 {
+  margin: 0;
 }
 
 .main {
@@ -71,10 +93,4 @@
   padding-top: 50px;
 }
 
-body {
-  background-color: #f7f7f9;
-  margin: 0;
-  font-family: sans-serif;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=switch.css.map */

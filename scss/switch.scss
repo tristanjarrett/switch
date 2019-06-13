@@ -6,8 +6,15 @@
   }
 }
 
-$color-primary: orangered;
-$color-secondary: #00baff;
+$color-primary: #00baff;
+$color-secondary: orangered;
+
+body {
+  background-color: #f7f7f9;
+  color: #333 !important;
+  margin: 0;
+  font-family: sans-serif;
+}
 
 .button {
   padding: .5rem 1rem;
@@ -28,14 +35,19 @@ $color-secondary: #00baff;
   margin: 0 auto;
   padding: 0 1rem;
 }
-.container-md {
-  @extend %container;
-  max-width: 1200px;
-}
 .container-sm {
+  @extend %container;
+  max-width: 800px;
+}
+.container-md {
   @extend %container;
   max-width: 1000px;
 }
+.container-lg {
+  @extend %container;
+  max-width: 1200px;
+}
+
 
 .flex {
   display: flex;
@@ -48,22 +60,28 @@ $color-secondary: #00baff;
   padding: .75rem 0;
   .brand {
     font-size: 1.5rem;
-    color: #333;
+    color: #333 !important;
     text-decoration: none;
   }
 }
 
 .jumbotron {
   background-color: $color-primary;
-  height: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
+  color: switch($color-primary);
   padding-bottom: 50px;
-  h1 {
-    margin: 0;
-    font-size: 4rem;
-    color: switch($color-primary);
+  .content {
+    padding: 3rem 0;
+    h1 {
+      margin: 0;
+      font-size: 4rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
   }
 }
 
@@ -74,16 +92,15 @@ $color-secondary: #00baff;
   height: 400px;
   margin: -50px auto;
   border: solid 1px #e9e9e9;
+  text-align: center;
+  padding: 50px 1rem;
+  h1 {
+    margin: 0;
+  }
 }
 
 .main {
   background-color: #ffffff;
   height: 500px;
   padding-top: 50px;
-}
-
-body {
-  background-color: #f7f7f9;
-  margin: 0;
-  font-family: sans-serif;
 }
