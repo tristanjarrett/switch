@@ -11,12 +11,12 @@ body {
   border-radius: 0.25rem;
   text-decoration: none;
   font-weight: bold;
-  border: solid 2px orangered;
-  color: orangered;
+  border: solid 2px purple;
+  color: purple;
 }
 .button:hover {
-  border-color: orangered;
-  background: orangered;
+  border-color: purple;
+  background: purple;
   color: #fff;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .jumbotron {
-  background-color: orangered;
+  background-color: purple;
   text-align: center;
   color: #fff;
   padding-bottom: 50px;

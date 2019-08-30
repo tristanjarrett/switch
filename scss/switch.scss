@@ -1,4 +1,4 @@
-$color-primary: orangered;
+$color-primary: purple;
 $color-secondary: #00baff;
 $text-light: #fff;
 $text-dark: #333;
@@ -49,7 +49,6 @@ body {
   @extend %container;
   max-width: 1200px;
 }
-
 
 .flex {
   display: flex;
