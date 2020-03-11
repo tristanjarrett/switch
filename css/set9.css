@@ -36,24 +36,24 @@
 }
 
 .button-primary {
-  border-color: #442b48;
-  background: #442b48;
-  color: #fff;
+  border-color: #7cea9c;
+  background: #7cea9c;
+  color: #333;
 }
 .button-primary:hover {
-  border-color: #623e68;
-  background: #623e68;
-  color: #fff;
+  border-color: #50e37b;
+  background: #50e37b;
+  color: #333;
 }
 
 .button-primary-outline {
-  border: solid 2px #442b48;
-  color: #442b48;
+  border: solid 2px #7cea9c;
+  color: #7cea9c;
 }
 .button-primary-outline:hover {
-  border-color: #623e68;
-  background: #623e68;
-  color: #fff;
+  border-color: #50e37b;
+  background: #50e37b;
+  color: #333;
 }
 
 .button-secondary {
@@ -93,9 +93,9 @@ body {
 }
 
 .jumbotron {
-  background-color: #442b48;
+  background-color: #7cea9c;
   text-align: center;
-  color: #fff;
+  color: #333;
   padding-bottom: 50px;
 }
 .jumbotron .content {

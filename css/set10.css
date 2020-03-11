@@ -36,45 +36,45 @@
 }
 
 .button-primary {
-  border-color: #442b48;
-  background: #442b48;
+  border-color: #3a3042;
+  background: #3a3042;
   color: #fff;
 }
 .button-primary:hover {
-  border-color: #623e68;
-  background: #623e68;
+  border-color: #544560;
+  background: #544560;
   color: #fff;
 }
 
 .button-primary-outline {
-  border: solid 2px #442b48;
-  color: #442b48;
+  border: solid 2px #3a3042;
+  color: #3a3042;
 }
 .button-primary-outline:hover {
-  border-color: #623e68;
-  background: #623e68;
+  border-color: #544560;
+  background: #544560;
   color: #fff;
 }
 
 .button-secondary {
-  border-color: #726e60;
-  background: #726e60;
-  color: #fff;
+  border-color: #db9d47;
+  background: #db9d47;
+  color: #333;
 }
 .button-secondary:hover {
-  border-color: #8d8878;
-  background: #8d8878;
-  color: #fff;
+  border-color: #c88527;
+  background: #c88527;
+  color: #333;
 }
 
 .button-secondary-outline {
-  border: solid 2px #726e60;
-  color: #726e60;
+  border: solid 2px #db9d47;
+  color: #db9d47;
 }
 .button-secondary-outline:hover {
-  border-color: #8d8878;
-  background: #8d8878;
-  color: #fff;
+  border-color: #c88527;
+  background: #c88527;
+  color: #333;
 }
 
 body {
@@ -93,7 +93,7 @@ body {
 }
 
 .jumbotron {
-  background-color: #442b48;
+  background-color: #3a3042;
   text-align: center;
   color: #fff;
   padding-bottom: 50px;

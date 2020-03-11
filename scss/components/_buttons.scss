@@ -1,3 +1,5 @@
+$transform-percentage: 10%;
+
 %button {
     padding: .5rem 1rem;
     display: inline-block;
@@ -6,6 +8,12 @@
     text-decoration: none;
     font-weight: bold;
     margin-bottom: .5rem;
+    &.button-small {
+        font-size: .85rem;
+    }
+    &.button-large {
+        font-size: 1.15rem;
+    }
     &.button-base {
         margin-bottom: 0;
     }
@@ -17,8 +25,8 @@
     background: $color-primary;
     color: switch($color-primary);
     &:hover {
-        border-color: darken($color-primary, 5%);
-        background: darken($color-primary, 5%);
+        border-color: detect($color-primary, $transform-percentage);
+        background: detect($color-primary, $transform-percentage);
         color: switch($color-primary);
     }
 }
@@ -28,8 +36,8 @@
     border: solid 2px $color-primary;
     color: $color-primary;
     &:hover {
-        border-color: darken($color-primary, 5%);
-        background: darken($color-primary, 5%);
+        border-color: detect($color-primary, $transform-percentage);
+        background: detect($color-primary, $transform-percentage);
         color: switch($color-primary);
     }
 }
@@ -40,8 +48,8 @@
     background: $color-secondary;
     color: switch($color-secondary);
     &:hover {
-        border-color: darken($color-secondary, 5%);
-        background: darken($color-secondary, 5%);
+        border-color: detect($color-secondary, $transform-percentage);
+        background: detect($color-secondary, $transform-percentage);
         color: switch($color-secondary);
     }
 }
@@ -51,8 +59,8 @@
     border: solid 2px $color-secondary;
     color: $color-secondary;
     &:hover {
-        border-color: darken($color-secondary, 5%);
-        background: darken($color-secondary, 5%);
+        border-color: detect($color-secondary, $transform-percentage);
+        background: detect($color-secondary, $transform-percentage);
         color: switch($color-secondary);
     }
 }

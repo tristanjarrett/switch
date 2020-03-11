@@ -1,80 +1,20 @@
+// mixins
 @import "../mixins/switch";
+
+// components
+@import "../components/grid";
 @import "../components/buttons";
 
-body {
-  background-color: #f7f7f9;
-  color: $body-text;
-  margin: 0;
-  font-family: sans-serif;
-}
+// docs
+@import "../docs/index";
 
-%container {
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-.container-sm {
-  @extend %container;
-  max-width: 800px;
-}
-.container-md {
-  @extend %container;
-  max-width: 1000px;
-}
-.container-lg {
-  @extend %container;
-  max-width: 1200px;
+body {
+  color: $body-text;
+  font-family: sans-serif;
 }
 
 .flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.header {
-  background-color: #ffffff;
-  padding: .75rem 0;
-  .brand {
-    font-size: 1.5rem;
-    color: #333 !important;
-    text-decoration: none;
-  }
-}
-
-.jumbotron {
-  background-color: $color-primary;
-  text-align: center;
-  color: switch($color-primary);
-  padding-bottom: 50px;
-  .content {
-    padding: 3rem 0;
-    h1 {
-      margin: 0;
-      font-size: 4rem;
-    }
-    p {
-      font-size: 1.2rem;
-      margin-bottom: 0;
-    }
-  }
-}
-
-.popout {
-  position: relative;
-  background-color: #ffffff;
-  border-radius: .25rem;
-  height: 300px;
-  margin: -50px auto;
-  border: solid 1px #e9e9e9;
-  text-align: center;
-  padding: 50px 1rem;
-  h1 {
-    margin: 0;
-  }
-}
-
-.main {
-  background-color: #ffffff;
-  height: 500px;
-  padding-top: 50px;
 }

@@ -5,3 +5,11 @@
         @return $text-light; // return light color on dark background
     }
 }
+
+@function detect($color, $percentage) {
+    @if (lightness($color) > 50) {
+        @return darken($color, $percentage);
+    } @else {
+        @return lighten($color, $percentage);
+    }
+}

@@ -1,0 +1,16 @@
+%container {
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.container-sm {
+    @extend %container;
+    max-width: 800px;
+}
+.container-md {
+    @extend %container;
+    max-width: 1000px;
+}
+.container-lg {
+    @extend %container;
+    max-width: 1200px;
+}

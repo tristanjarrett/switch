@@ -1,65 +1,4 @@
-.button-secondary-outline, .button-secondary, .button-primary-outline, .button-primary {
-  padding: 0.5rem 1rem;
-  display: inline-block;
-  border-radius: 0.25rem;
-  border: solid 2px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-.button-base.button-secondary-outline, .button-base.button-secondary, .button-base.button-primary-outline, .button-base.button-primary {
-  margin-bottom: 0;
-}
-
-.button-primary {
-  border-color: #3c91e6;
-  background: #3c91e6;
-  color: #333;
-}
-.button-primary:hover {
-  border-color: #2584e3;
-  background: #2584e3;
-  color: #333;
-}
-
-.button-primary-outline {
-  border: solid 2px #3c91e6;
-  color: #3c91e6;
-}
-.button-primary-outline:hover {
-  border-color: #2584e3;
-  background: #2584e3;
-  color: #333;
-}
-
-.button-secondary {
-  border-color: #9fd356;
-  background: #9fd356;
-  color: #333;
-}
-.button-secondary:hover {
-  border-color: #94ce42;
-  background: #94ce42;
-  color: #333;
-}
-
-.button-secondary-outline {
-  border: solid 2px #9fd356;
-  color: #9fd356;
-}
-.button-secondary-outline:hover {
-  border-color: #94ce42;
-  background: #94ce42;
-  color: #333;
-}
-
-body {
-  background-color: #f7f7f9;
-  color: #333;
-  margin: 0;
-  font-family: sans-serif;
-}
-
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
 .container-lg, .container-md, .container-sm {
   margin: 0 auto;
   padding: 0 1rem;
@@ -77,10 +16,70 @@ body {
   max-width: 1200px;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.button-secondary-outline, .button-secondary, .button-primary-outline, .button-primary {
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 0.25rem;
+  border: solid 2px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.button-small.button-secondary-outline, .button-small.button-secondary, .button-small.button-primary-outline, .button-small.button-primary {
+  font-size: 0.85rem;
+}
+.button-large.button-secondary-outline, .button-large.button-secondary, .button-large.button-primary-outline, .button-large.button-primary {
+  font-size: 1.15rem;
+}
+.button-base.button-secondary-outline, .button-base.button-secondary, .button-base.button-primary-outline, .button-base.button-primary {
+  margin-bottom: 0;
+}
+
+.button-primary {
+  border-color: #3c91e6;
+  background: #3c91e6;
+  color: #333;
+}
+.button-primary:hover {
+  border-color: #1b78d4;
+  background: #1b78d4;
+  color: #333;
+}
+
+.button-primary-outline {
+  border: solid 2px #3c91e6;
+  color: #3c91e6;
+}
+.button-primary-outline:hover {
+  border-color: #1b78d4;
+  background: #1b78d4;
+  color: #333;
+}
+
+.button-secondary {
+  border-color: #9fd356;
+  background: #9fd356;
+  color: #333;
+}
+.button-secondary:hover {
+  border-color: #87c333;
+  background: #87c333;
+  color: #333;
+}
+
+.button-secondary-outline {
+  border: solid 2px #9fd356;
+  color: #9fd356;
+}
+.button-secondary-outline:hover {
+  border-color: #87c333;
+  background: #87c333;
+  color: #333;
+}
+
+body {
+  background-color: #f7f7f9;
+  margin: 0;
 }
 
 .header {
@@ -127,6 +126,38 @@ body {
 
 .main {
   background-color: #ffffff;
-  height: 500px;
-  padding-top: 50px;
+  padding: 50px 0;
+}
+
+.source-display {
+  border: solid 2px #f7f7f7;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.source-display .source-window {
+  padding: 1rem;
+}
+.source-display .source-code {
+  background-color: #f7f7f7;
+}
+.source-display .source-code pre {
+  margin: 0;
+  padding: 1rem;
+}
+.source-display .source-code pre code {
+  font-family: "Source Code Pro", monospace;
+  color: #666;
+  cursor: text;
+}
+
+body {
+  color: #333;
+  font-family: sans-serif;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

@@ -36,44 +36,44 @@
 }
 
 .button-primary {
-  border-color: #442b48;
-  background: #442b48;
+  border-color: purple;
+  background: purple;
   color: #fff;
 }
 .button-primary:hover {
-  border-color: #623e68;
-  background: #623e68;
+  border-color: #b300b3;
+  background: #b300b3;
   color: #fff;
 }
 
 .button-primary-outline {
-  border: solid 2px #442b48;
-  color: #442b48;
+  border: solid 2px purple;
+  color: purple;
 }
 .button-primary-outline:hover {
-  border-color: #623e68;
-  background: #623e68;
+  border-color: #b300b3;
+  background: #b300b3;
   color: #fff;
 }
 
 .button-secondary {
-  border-color: #726e60;
-  background: #726e60;
+  border-color: orange;
+  background: orange;
   color: #fff;
 }
 .button-secondary:hover {
-  border-color: #8d8878;
-  background: #8d8878;
+  border-color: #ffb733;
+  background: #ffb733;
   color: #fff;
 }
 
 .button-secondary-outline {
-  border: solid 2px #726e60;
-  color: #726e60;
+  border: solid 2px orange;
+  color: orange;
 }
 .button-secondary-outline:hover {
-  border-color: #8d8878;
-  background: #8d8878;
+  border-color: #ffb733;
+  background: #ffb733;
   color: #fff;
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .jumbotron {
-  background-color: #442b48;
+  background-color: purple;
   text-align: center;
   color: #fff;
   padding-bottom: 50px;
