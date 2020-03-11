@@ -1,0 +1,13 @@
+$color1: rgba(68, 43, 72, 1);
+$color2: rgba(114, 110, 96, 1);
+$color3: rgba(152, 176, 111, 1);
+$color4: rgba(182, 220, 118, 1);
+$color5: rgba(219, 255, 118, 1);
+
+$color-primary: $color1;
+$color-secondary: $color2;
+$text-light: #fff;
+$text-dark: #333;
+$body-text: $text-dark;
+
+@import "core/main";

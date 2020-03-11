@@ -1,0 +1,58 @@
+%button {
+    padding: .5rem 1rem;
+    display: inline-block;
+    border-radius: .25rem;
+    border: solid 2px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    &.button-base {
+        margin-bottom: 0;
+    }
+}
+
+.button-primary {
+    @extend %button;
+    border-color: $color-primary;
+    background: $color-primary;
+    color: switch($color-primary);
+    &:hover {
+        border-color: darken($color-primary, 5%);
+        background: darken($color-primary, 5%);
+        color: switch($color-primary);
+    }
+}
+
+.button-primary-outline {
+    @extend %button;
+    border: solid 2px $color-primary;
+    color: $color-primary;
+    &:hover {
+        border-color: darken($color-primary, 5%);
+        background: darken($color-primary, 5%);
+        color: switch($color-primary);
+    }
+}
+
+.button-secondary {
+    @extend %button;
+    border-color: $color-secondary;
+    background: $color-secondary;
+    color: switch($color-secondary);
+    &:hover {
+        border-color: darken($color-secondary, 5%);
+        background: darken($color-secondary, 5%);
+        color: switch($color-secondary);
+    }
+}
+
+.button-secondary-outline {
+    @extend %button;
+    border: solid 2px $color-secondary;
+    color: $color-secondary;
+    &:hover {
+        border-color: darken($color-secondary, 5%);
+        background: darken($color-secondary, 5%);
+        color: switch($color-secondary);
+    }
+}

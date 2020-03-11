@@ -1,23 +1,63 @@
-body {
-  background-color: #f7f7f9;
-  color: #333 !important;
-  margin: 0;
-  font-family: sans-serif;
-}
-
-.button {
+.button-secondary-outline, .button-secondary, .button-primary-outline, .button-primary {
   padding: 0.5rem 1rem;
   display: inline-block;
   border-radius: 0.25rem;
+  border: solid 2px;
   text-decoration: none;
   font-weight: bold;
-  border: solid 2px purple;
-  color: purple;
+  margin-bottom: 0.5rem;
 }
-.button:hover {
-  border-color: purple;
-  background: purple;
+.button-base.button-secondary-outline, .button-base.button-secondary, .button-base.button-primary-outline, .button-base.button-primary {
+  margin-bottom: 0;
+}
+
+.button-primary {
+  border-color: #3ab795;
+  background: #3ab795;
   color: #fff;
+}
+.button-primary:hover {
+  border-color: #34a485;
+  background: #34a485;
+  color: #fff;
+}
+
+.button-primary-outline {
+  border: solid 2px #3ab795;
+  color: #3ab795;
+}
+.button-primary-outline:hover {
+  border-color: #34a485;
+  background: #34a485;
+  color: #fff;
+}
+
+.button-secondary {
+  border-color: #a0e8af;
+  background: #a0e8af;
+  color: #333;
+}
+.button-secondary:hover {
+  border-color: #8be39e;
+  background: #8be39e;
+  color: #333;
+}
+
+.button-secondary-outline {
+  border: solid 2px #a0e8af;
+  color: #a0e8af;
+}
+.button-secondary-outline:hover {
+  border-color: #8be39e;
+  background: #8be39e;
+  color: #333;
+}
+
+body {
+  background-color: #f7f7f9;
+  color: #333;
+  margin: 0;
+  font-family: sans-serif;
 }
 
 .container-lg, .container-md, .container-sm {
@@ -54,7 +94,7 @@ body {
 }
 
 .jumbotron {
-  background-color: purple;
+  background-color: #3ab795;
   text-align: center;
   color: #fff;
   padding-bottom: 50px;
@@ -90,5 +130,3 @@ body {
   height: 500px;
   padding-top: 50px;
 }
-
-/*# sourceMappingURL=switch.css.map */

@@ -1,0 +1,132 @@
+.button-secondary-outline, .button-secondary, .button-primary-outline, .button-primary {
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 0.25rem;
+  border: solid 2px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.button-base.button-secondary-outline, .button-base.button-secondary, .button-base.button-primary-outline, .button-base.button-primary {
+  margin-bottom: 0;
+}
+
+.button-primary {
+  border-color: #442b48;
+  background: #442b48;
+  color: #fff;
+}
+.button-primary:hover {
+  border-color: #352138;
+  background: #352138;
+  color: #fff;
+}
+
+.button-primary-outline {
+  border: solid 2px #442b48;
+  color: #442b48;
+}
+.button-primary-outline:hover {
+  border-color: #352138;
+  background: #352138;
+  color: #fff;
+}
+
+.button-secondary {
+  border-color: #726e60;
+  background: #726e60;
+  color: #fff;
+}
+.button-secondary:hover {
+  border-color: #646154;
+  background: #646154;
+  color: #fff;
+}
+
+.button-secondary-outline {
+  border: solid 2px #726e60;
+  color: #726e60;
+}
+.button-secondary-outline:hover {
+  border-color: #646154;
+  background: #646154;
+  color: #fff;
+}
+
+body {
+  background-color: #f7f7f9;
+  color: #333;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container-lg, .container-md, .container-sm {
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.container-sm {
+  max-width: 800px;
+}
+
+.container-md {
+  max-width: 1000px;
+}
+
+.container-lg {
+  max-width: 1200px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 0.75rem 0;
+}
+.header .brand {
+  font-size: 1.5rem;
+  color: #333 !important;
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-color: #442b48;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 50px;
+}
+.jumbotron .content {
+  padding: 3rem 0;
+}
+.jumbotron .content h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+.jumbotron .content p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.popout {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  height: 300px;
+  margin: -50px auto;
+  border: solid 1px #e9e9e9;
+  text-align: center;
+  padding: 50px 1rem;
+}
+.popout h1 {
+  margin: 0;
+}
+
+.main {
+  background-color: #ffffff;
+  height: 500px;
+  padding-top: 50px;
+}

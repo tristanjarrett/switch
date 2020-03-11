@@ -1,36 +1,11 @@
-$color-primary: purple;
-$color-secondary: #00baff;
-$text-light: #fff;
-$text-dark: #333;
-
-@function switch($color) {
-  @if (lightness($color) > 50) {
-    @return $text-dark; // return dark color on light background
-  } @else {
-    @return $text-light; // return light color on dark background
-  }
-}
+@import "../mixins/switch";
+@import "../components/buttons";
 
 body {
   background-color: #f7f7f9;
-  color: #333 !important;
+  color: $body-text;
   margin: 0;
   font-family: sans-serif;
-}
-
-.button {
-  padding: .5rem 1rem;
-  display: inline-block;
-  border-radius: .25rem;
-  text-decoration: none;
-  font-weight: bold;
-  border: solid 2px $color-primary;
-  color: $color-primary;
-  &:hover {
-    border-color: $color-primary;
-    background: $color-primary;
-    color: switch($color-primary);
-  }
 }
 
 %container {

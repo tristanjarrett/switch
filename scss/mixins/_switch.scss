@@ -1,0 +1,7 @@
+@function switch($color) {
+    @if (lightness($color) > 50) {
+        @return $text-dark; // return dark color on light background
+    } @else {
+        @return $text-light; // return light color on dark background
+    }
+}

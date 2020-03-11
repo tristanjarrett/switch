@@ -1,0 +1,23 @@
+{
+  "name": "switch",
+  "version": "1.0.0",
+  "description": "Sass colour set starter",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --no-source-map --watch scss:css",
+    "compile": "sass --no-source-map scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tristanjarrett/switch.git"
+  },
+  "author": "Tristan Jarrett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tristanjarrett/switch/issues"
+  },
+  "homepage": "https://github.com/tristanjarrett/switch#readme",
+  "devDependencies": {
+    "sass": "^1.26.2"
+  }
+}
